@@ -12,8 +12,8 @@ public class idadePessoa2 {
 		idade = ler.nextInt();
 		
 		ano = 2020 - idade/365;
-		mes = (idade%365)/12;
-		dia = (idade%365)%12;
+		mes = (idade%365)/30;
+		dia = (idade%365)%30;
 		
 		System.out.printf("Data: %d/%d/%d", ano, mes, dia);
 
