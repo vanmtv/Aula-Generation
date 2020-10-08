@@ -9,11 +9,12 @@ public class Exerc6DoWhile {
 		do {
 			System.out.println("Digite um numero: ");
 			num = ler.nextInt();
+			if(num%3==0) {
 			soma +=num;
 			cont++;
 			if(num==0) {
 				cont--;
-			}
+			}}
 		}
 		while(num!=0);
 		media = soma/cont;
