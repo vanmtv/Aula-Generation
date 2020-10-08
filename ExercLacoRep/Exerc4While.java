@@ -33,6 +33,8 @@ public class Exerc4While {
 				if(sexo==2)
 					ha++;
 			break;
+			default:
+				System.out.println("Algo deu errado. Tente novamente.");
 			}
 			total++;
 		}
