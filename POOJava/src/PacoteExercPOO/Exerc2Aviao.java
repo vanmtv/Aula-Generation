@@ -1,9 +1,9 @@
 package PacoteExercPOO;
 
 public class Exerc2Aviao {
-	String modelo;
-	String tipoViagem;
-	String cor;
+	public String modelo;
+	public String tipoViagem;
+	public String cor;
 	
 	int quantViagensDia=0;
 	double velocidadeAtual=0;
