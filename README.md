@@ -1,2 +1,2 @@
 # Aula-Generation
-Aulas desenvolvidas no curso da Generation
+Aulas e Atividades desenvolvidas no bootcamp da Generation
