@@ -65,6 +65,6 @@ select tb_produto.nome, tb_produto.preco, tb_categoria.descricao
 -- Faça um select onde traga todos os Produtos de uma categoria específica
 select tb_produto.nome, tb_produto.preco, tb_categoria.descricao
 	from tb_produto
-		inner join tb_categoria 
+		inner join tb_categoria 	
         on tb_categoria.id = tb_produto.id
 			where tb_categoria.descricao = "Proteina de plantas";
